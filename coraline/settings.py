@@ -20,6 +20,8 @@ DEBUG = os.getenv("DJANGO_DEBUG")
 ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS", "").split(",")
 
 INSTALLED_APPS = [
+    "apps.core",
+    "apps.companies",
     "apps.invoicing",
     "django.contrib.admin",
     "django.contrib.auth",

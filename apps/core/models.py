@@ -22,6 +22,4 @@ class BaseModel(models.Model):
         }
         if additional_data:
             result.update(additional_data)
-
-
-return result
+        return result
