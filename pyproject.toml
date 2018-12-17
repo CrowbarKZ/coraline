@@ -1,0 +1,20 @@
+[tool.black]
+line-length = 88
+py36 = true
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.cache
+  | \.github
+  | \.mypy_cache
+  | \.vscode
+  | docker
+  | docs
+  | requirements
+  | static
+  | tmp
+  | venv
+  | migrations
+)/
+'''

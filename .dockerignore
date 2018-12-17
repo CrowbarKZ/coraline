@@ -1,0 +1,9 @@
+.gitignore
+.dockerignore
+
+Makefile
+pyproject.toml
+setup.cfg
+
+*.sublime-project
+*.sublime-workspace
